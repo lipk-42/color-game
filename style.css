@@ -1,0 +1,43 @@
+body {
+    background-color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    margin: 2em;
+    padding: 0.5em;
+  }
+  #score {
+      padding: 1em;
+      text-align: center;
+      color: white;
+  }
+  .square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 5%;
+  }
+  #container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  div {
+      text-align: center;
+      color: white;
+      font-size: large;
+  }
+  button {
+    font-size: large;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 0.2em;
+    color: white;
+    background-image: linear-gradient(to right, red, rgb(255, 208, 0), green, blue);
+    padding: 1em 2em;
+    border-radius: 10px;
+  }
