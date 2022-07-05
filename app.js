@@ -30,7 +30,7 @@ for (let i = 0; i < squares.length; i++) {
         button.onclick = () => {
           document.location.reload();
         };
-            }, 3000);
+            }, 2000);
 
     } else {
       messageDisplay.textContent = `wrong, this is ${clickedColor}`;
